@@ -7,12 +7,27 @@
     <title>Portfolio RC</title>
 
     <style>
+        @font-face {
+    src: url(_Fonts/Gruppo/Gruppo-Regular.ttf);
+    font-family: 'Gruppo-Regular';    
+    font-weight: normal;
+        } 
+        
+        body{
+	font-family: 'Gruppo-Regular'; 
+        }
+
+
+        h1, h2, h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
+        }
+
         h1, h2, h3 {
             color: grey
         }
         
         body {
-            background-color: black
+            background-color: rgb(40, 40, 40)
         }
 
         a {
@@ -24,8 +39,9 @@
         }
 
         h4, h5, h6 {
-            color: whitesmoke
+            color: rgb(166, 166, 166)
         }
+        
 
 
 
@@ -47,7 +63,7 @@
         De exercícios práticos durante minha formação como pessoa desenvolvedora <br> aqui na Trybe até os meus trabalho mais recentes no mercado.
     <p> Aplicações web contruídas nas principais liguagens de programação <br> e marcação de texto disponíveis, tasi como:</p>> <br>
     </h4>
-        <ul>
+        <ul class="list-style">
             <li> <a href="#HTML">HTML</a></li>
             <li><a href="#CSS">CSS</a></li>
             <li><a href="#Javascript">Javascript</a></li>
@@ -60,7 +76,7 @@
         <br>
         <p><h5><p id="Habilidades"></p>Considero que minhas principais qualidades são:</p> </h5> <br>
         <h5>
-           <ol>
+           <ol class="list-style">
             <li> criatividade;</li>
             <li> resiliência;</li>
             <li> comunicação;</li>
@@ -75,7 +91,7 @@
         </h5> <br>
 
     <h5>
-    <ul>
+    <ul class="list-style">
        <li> <p id="HTML">HTML:
     </li>
     <li> <p id="CSS">CSS:
@@ -86,7 +102,7 @@
     <br>
     <h6>Índice</h6>
     <h6>
-    <ul>
+    <ul class="list-style">
         <li><a href="#Topo"></a>Topo</li> 
         <li><a href="#Quem"></a>Quem sou eu</li> 
         <li><a href="#Habilidades"></a>Habilidades</li> 
