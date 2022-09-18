@@ -1,5 +1,5 @@
 @font-face {
-    src: url(Portfolio-rcamarano/_Fonts/Gruppo/Gruppo-Regular.ttf);
+    src: url(_Fonts/Gruppo/Gruppo-Regular.ttf);
     font-family: 'Gruppo-Regular';    
     font-weight: normal;
         } 
@@ -7,6 +7,10 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body{
+  background-color: rgb(43, 43, 43);
 }
 
 body{
@@ -26,7 +30,7 @@ body{
 
   p, li{
     font-size: 16px;
-    color: #02a505;
+    color: #00944f;
     /* background-color: blue; */
   }
 
@@ -35,7 +39,7 @@ body{
   }
 
   h1, h3, h4{
-    color: #02a505;
+    color: #00944f;
   }
 
   .main-title{
@@ -92,13 +96,13 @@ body{
     width: 80%;
   }
 
-  .market {
+  .intro {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 40px;
   }
 
-  #market-text {
+  #intro-text {
     width: 80%;
     /* margin auto coloca o elemento centralizado */
     margin: auto;
