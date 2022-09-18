@@ -1,0 +1,65 @@
+@font-face {
+    src: url(_Fonts/Gruppo/Gruppo-Regular.ttf);
+    font-family: 'Gruppo-Regular';    
+    font-weight: normal;
+        } 
+
+        #background-video {
+            width: 100%;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+          }
+        
+        body{
+	font-family: 'Gruppo-Regular'; 
+        }
+
+
+        h1, h2, h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
+        }
+
+        h1, h2, h3 {
+            color: rgb(217, 55, 55)
+        }
+        
+        body {
+            background-color: rgb(40, 40, 40)
+        }
+
+        .header {
+            background-image: "_Links/Image-Top.png";
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 25%
+        }
+
+        h4, h5, h6 {
+            color: rgb(166, 166, 166)
+        }
+        
+        .list-style-big {
+            font-size: x-large;
+        }
+
+        .list-style-small {
+            font-size: x-small;
+        }
+
+        .list-style-italic {
+            font-style: italic;
+        }
+
+        .life-style-bold {
+            font-style: bold;
+        }
