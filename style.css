@@ -62,7 +62,7 @@ body{
   }
 
   .picture{
-    border-radius: 100%;
+    border-radius: 25%;
   }
 
   .testimonials-name{
@@ -90,16 +90,25 @@ body{
 
   #header-content {
     width: 60%;
+    float: left;
   }
 
   .header-text {
     width: 80%;
   }
 
+  #Profile-Picture {
+    width: 40%;
+    float: right;
+  }
+
+
   .intro {
+    background-color: #000;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 200px;
     margin-bottom: 40px;
+    clear: both;
   }
 
   #intro-text {
