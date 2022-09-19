@@ -64,7 +64,8 @@ body{
     line-height: 42px;
     font-weight: 600;
     font-size: 28px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .exemplo{
@@ -176,21 +177,14 @@ body{
     padding: 10px;
   }
 
-  .formation {
+  .exercise {
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
-  #div-left {
-    float: left;
-  }
+  li:hover{
+    background-color: #00fe9d;
 
-  #div-right {
-    float: right;
-  }
-
-  .footer {
-    clear: both;
   }
 
     /* aplica para todos os p filhos de .student-testimonials
