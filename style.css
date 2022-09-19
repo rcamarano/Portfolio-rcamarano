@@ -26,6 +26,13 @@ body{
     z-index: -1;
   }
 
+  .intro {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    clear: both;
+  }
+
 
   #dev {
     width: 100%;
@@ -52,6 +59,15 @@ body{
     color: #00944f;
   }
 
+  .intro-title{
+    background-color: #000;
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .main-title{
     color: #02a505;
     line-height: 55px;
@@ -64,8 +80,8 @@ body{
     line-height: 42px;
     font-weight: 600;
     font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .exemplo{
@@ -113,14 +129,6 @@ body{
     float: right;
   }
 
-
-  .intro {
-    background-color: #000;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 40px;
-    clear: both;
-  }
 
   #intro-text {
     width: 80%;
@@ -182,7 +190,9 @@ body{
   }
 
   .exercise {
-    margin-top: 25px;
+    text-align: left;
+    padding-top: 25px;
+    margin-top: 55px;
     margin-bottom: 20px;
   }
 
