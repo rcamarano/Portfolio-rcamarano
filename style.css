@@ -28,6 +28,18 @@ body{
     z-index: -1;
   }
 
+
+  #dev {
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+
   p, li{
     font-size: 16px;
     color: #00944f;
@@ -65,7 +77,7 @@ body{
     border-radius: 25%;
   }
 
-  .testimonials-name{
+  .skill-name{
     line-height: 20px;
     font-weight: 600;
     font-size: 14px;
@@ -82,7 +94,7 @@ body{
   }
 
   #header {
-    background-image: url('images/smiling-image.jpeg');
+   
     background-size: cover;
     background-position: 50% 25%;
     padding: 60px 30px 40px 30px;
@@ -117,22 +129,51 @@ body{
     margin: auto;
   }
 
-  .testimonials {
+  .caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 100px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+      margin: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+    margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+    border: #000 5px;
+  }
+
+  .skills {
     /* background-color: orange; */
     text-align: center;
     margin-top: 60px;
     margin-bottom: 80px;
   }
 
-  .student-testimonials {
+  .dev-skills {
     /* background-color: blue; */
     width: 30%;
     display: inline-block;
+    align: top;
     margin-right: 20px;
   }
 
   /* aplica para todos os p descendentes de .student-testimonials */
-  .student-testimonials p {
+  .dev-skills p {
     padding: 10px;
   }
 
