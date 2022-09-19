@@ -141,6 +141,10 @@ body{
     width: 100px;
     margin: 30px;
   }
+
+  /* ul li:nth-child(odd){
+    background-color: #02a505;
+  } */
   
   /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
   /* .padding {
